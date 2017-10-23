@@ -83,10 +83,6 @@
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-			-moz-transition-delay: none !important;
-			-webkit-transition-delay: none !important;
-			-ms-transition-delay: none !important;
-			transition-delay: none !important;
 		}
 
 /* Type */
@@ -355,10 +351,6 @@
 	input[type="tel"],
 	select,
 	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
 		-moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -373,15 +365,6 @@
 		text-decoration: none;
 		width: 100%;
 	}
-
-		input[type="text"]:invalid,
-		input[type="password"]:invalid,
-		input[type="email"]:invalid,
-		input[type="tel"]:invalid,
-		select:invalid,
-		textarea:invalid {
-			box-shadow: none;
-		}
 
 		input[type="text"]:focus,
 		input[type="password"]:focus,
@@ -420,7 +403,6 @@
 			display: block;
 			height: 2.75rem;
 			line-height: calc(2.75rem + 0em);
-			pointer-events: none;
 			position: absolute;
 			right: 0;
 			text-align: center;
@@ -445,10 +427,6 @@
 
 	input[type="checkbox"],
 	input[type="radio"] {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
 		display: block;
 		float: left;
 		margin-right: -2rem;
@@ -460,10 +438,6 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			-moz-user-select: none;
-			-webkit-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
 			color: #ffffff;
 			cursor: pointer;
 			display: inline-block;
@@ -604,10 +578,6 @@
 	}
 
 		.image:before {
-			-moz-pointer-events: none;
-			-webkit-pointer-events: none;
-			-ms-pointer-events: none;
-			pointer-events: none;
 			background-image: url("../../images/overlay.png");
 			background-color: rgba(19, 21, 25, 0.31);
 			border-radius: 4px;
@@ -944,10 +914,6 @@
 	input[type="button"],
 	button,
 	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -1025,10 +991,6 @@
 		button:disabled,
 		.button.disabled,
 		.button:disabled {
-			-moz-pointer-events: none;
-			-webkit-pointer-events: none;
-			-ms-pointer-events: none;
-			pointer-events: none;
 			cursor: default;
 			opacity: 0.25;
 		}
@@ -1071,10 +1033,6 @@
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
 			transition: background-color 2.5s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
@@ -1249,10 +1207,6 @@
 				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-moz-transition-delay: 0.25s;
-				-webkit-transition-delay: 0.25s;
-				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
